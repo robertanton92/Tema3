@@ -11,7 +11,7 @@ public class Main {
 		meci1.set_away_team("Steaua");
 		meci1.set_home_team("Dinamo");
 		meci1.set_score(3, 2);
-		meci1.afisare_meci();
+		meci1.afisare_meci();//
 		meci1.afisare_scor();
 	}
 	catch(MyException m){

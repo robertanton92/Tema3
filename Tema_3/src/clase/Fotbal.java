@@ -24,6 +24,7 @@ public abstract class Fotbal implements Sport{
 			scor_home=score_h;
 			scor_away=score_a;
 		//daca oke nu va fi egal cu unul nu putem seta scorul, deci va rezulta o exceptie!!!
+		//vom crea o noua exceptie!
 		}
 		else
 			throw new MyException("nu se poate seta scorul pentru ca nu a inceput meciul!!");//nu se poate schimba scorul, pentru ca nu a inceput meciul
