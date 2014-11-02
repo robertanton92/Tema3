@@ -1,7 +1,8 @@
-package clase;
+package com.iwombat.clase;
 
-import interfata.Sport;
-import Exception.MyException;
+import com.iwombat.exception.MyException;
+import com.iwombat.interfata.Sport;
+
 public abstract class Fotbal implements Sport{
 	
 	int nr_jucatori;

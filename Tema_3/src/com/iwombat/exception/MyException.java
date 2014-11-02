@@ -1,4 +1,4 @@
-package Exception;
+package com.iwombat.exception;
 
 public class MyException extends Exception {
 	

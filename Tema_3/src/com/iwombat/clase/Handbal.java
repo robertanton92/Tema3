@@ -1,6 +1,6 @@
-package clase;
+package com.iwombat.clase;
 
-import interfata.Sport;
+import com.iwombat.interfata.Sport;
 
 public class Handbal implements Sport {
 

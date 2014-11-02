@@ -1,6 +1,6 @@
-package interfata;
+package com.iwombat.interfata;
 
-import Exception.MyException;
+import com.iwombat.exception.MyException;
 
 public interface Sport {
 

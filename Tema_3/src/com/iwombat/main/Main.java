@@ -1,12 +1,13 @@
-package Main;
+package com.iwombat.main;
 
-import clase.Fotbal_sala;
-import Exception.MyException;
+import com.iwombat.clase.FotbalSala;
+import com.iwombat.exception.MyException;
+
 
 public class Main {
 	public static void main(String[] args) {
 	try{ 
-		Fotbal_sala meci1=new Fotbal_sala();
+		FotbalSala meci1=new FotbalSala();
 		meci1.start();
 		meci1.set_away_team("Steaua");
 		meci1.set_home_team("Dinamo");

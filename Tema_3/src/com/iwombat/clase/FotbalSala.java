@@ -1,6 +1,6 @@
-package clase;
-import Exception.MyException;
-public class Fotbal_sala extends Fotbal{
+package com.iwombat.clase;
+import com.iwombat.exception.MyException;
+public class FotbalSala extends Fotbal{
 	
 	
 	public void set_nr_jucatori(int nr_juc) {
